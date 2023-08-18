@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Policejní slovíčka a fráze</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			body {
+				margin-left:auto;
+				margin-right:auto;
+				width:960px;
+				border-left: 1px solid lightgray;
+				border-bottom-left-radius: 3em;
+				border-bottom-right-radius: 3em;
+				border-right: 1px solid lightgray;
+				
+				height: 100%;
+				padding-bottom: 50px
+			}
+			
+			div.pad {
+				padding-left: 15px;
+			}
+			
+			ul.nav {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			li.nav {
+				float: left;
+				border-right:1px solid #bbb;
+			}
+
+			li.nav:last-child {
+				border-right: none;
+			}
+
+			li.nav a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+
+			li.nav a:hover:not(.active) {
+				background-color: #111;
+			}
+
+			.active {
+				background-color: #4CAF50;
+			}
+		</style>
+		<script src="n.js"></script>
+	</head>
+	<body>
+		<ul class="nav">
+			<li class="nav"><a   href="A.html">A</a></li>
+			<li class="nav"><a  href="B.html">B</a></li>
+			<li class="nav"><a  href="C.html">C</a></li>
+			<li class="nav"><a  href="D.html">D</a></li>
+			<li class="nav"><a  href="E.html">E</a></li>
+			<li class="nav"><a  href="F.html">F</a></li>
+			<li class="nav"><a  href="G.html">G</a></li>
+			<li class="nav"><a  href="H.html">H</a></li>
+			<li class="nav"><a  href="I.html">I</a></li>
+			<li class="nav"><a  href="J.html">J</a></li>
+			<li class="nav"><a  href="K.html">K</a></li>
+			<li class="nav"><a  href="L.html">L</a></li>
+			<li class="nav"><a  class="active" href="M.html">M</a></li>
+			<li class="nav"><a  href="N.html">N</a></li>
+			<li class="nav"><a  href="O.html">O</a></li>
+			<li class="nav"><a  href="P.html">P</a></li>
+			<li class="nav"><a  href="R.html">R</a></li>
+			<li class="nav"><a  href="S.html">S</a></li>
+			<li class="nav"><a  href="T.html">T</a></li>
+			<li class="nav"><a  href="U.html">U</a></li>
+			<li class="nav"><a  href="V.html">V</a></li>
+			<li class="nav"><a  href="W.html">W</a></li>
+		</ul>
+		<div class='pad'>
+		<h1>Odpovídací otázky</h1>
+		<h3>Čas na psaní</h3>
+
+		<span id="start"><button onclick="start()">Start</button></span>
+		
+		<p style="visibility: hidden" id="otazkaCislo"></p>
+		<p style="visibility: hidden" id="otazka"></p>
+		<br>
+
+		
+	
+		<p id="check"></p>
+		
+		<button style="visibility:hidden" id="dalsi" type="button" onclick= nactiOtazku()>Další</button>
+		</div>
+	</body>
+</html>

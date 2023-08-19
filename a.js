@@ -145,12 +145,12 @@ function zalozOtazky() {
 	pridejOtazku("aggravating circumstance", "přitěžující okolnost");
 	pridejOtazku("aim at", "zaměřit se na");
 	pridejOtazku("aim to", "usilovat o co");
-	pridejOtazku("Air Rescue Service", "letecká záchranná služba");
+	pridejOtazku("air rescue service", "letecká záchranná služba");
 	pridejOtazku("alarm", "poplašné zařízení");
 	pridejOtazku("alert", "ostražitý, ve střehu, ve stavu pohotovosti");
 	pridejOtazku("alias", "falešné jméno, přezdívka");
 	pridejOtazku("alien", "cizinec");
-	pridejOtazku("Alien Police", "služba pohraniční a cizinecké policie");
+	pridejOtazku("alien Police", "služba pohraniční a cizinecké policie");
 	pridejOtazku("allegation", "obvinění z údajného trestného činu");
 	pridejOtazku("alleged", "údajný");
 	pridejOtazku("alleged", "údajný, domnělý");
@@ -173,7 +173,7 @@ function zalozOtazky() {
 	pridejOtazku("approve of", "považovat za správné");
 	pridejOtazku("arest warrant", "příkaz k zatčení, zatykač");
 	pridejOtazku("armed", "ozbrojený");
-	pridejOtazku("Armenians", "Arméni");
+	pridejOtazku("armenians", "arméni");
 	pridejOtazku("around the clock", "24 hodin denně");
 	pridejOtazku("arrest", "zatčení, zajištění, zadržení");
 	pridejOtazku("arson", "žhářství");
@@ -185,7 +185,7 @@ function zalozOtazky() {
 	pridejOtazku("assaulting a public official", "napadení veřejného činitele");
 	pridejOtazku("assault on", "napadení koho, útok na");
 	pridejOtazku("assign to", "přidělit k");
-	pridejOtazku("Assistant Inspector of Constabulary", "zástupce ředitele ředitelství policie");
+	pridejOtazku("assistant Inspector of Constabulary", "zástupce ředitele ředitelství policie");
 	pridejOtazku("assume", "přijmout, vzít na sebe");
 	pridejOtazku("assumption", "předpoklad");
 	pridejOtazku("at large", "na svobodě");

@@ -111,31 +111,7 @@ function check() {
 }
 
 function zalozOtazky() {
-	pridejOtazku("jail", "věznice, vězení, uvěznit, poslat do vězení");
-	pridejOtazku("jaywalking", "bezohledné přecházení ulice");
-	pridejOtazku("jersey", "dres");
-	pridejOtazku("jewel", "šperk, klenot");
-	pridejOtazku("jewellery", "šperky, klenoty");
-	pridejOtazku("Jewish", "židovský");
-	pridejOtazku("Jews", "Židé");
-	pridejOtazku("judge", "soudce");
-	pridejOtazku("judiciary", "justice");
-	pridejOtazku("junior officers", "služebně mladší policisté");
-	pridejOtazku("jurisdiction", "soudní pravomoc, jurisdikce");
-	pridejOtazku("jurisdiction", "jurisdikce, soudní pravomoc");
-	pridejOtazku("jury", "porota");
-	pridejOtazku("jury trial", "soudní řízení za přítomnosti poroty");
-	pridejOtazku("Justice Department", "Ministerstvo spravedlnosti");
-	pridejOtazku("justified concern", "oprávěná obava");
-	pridejOtazku("juvenile", "mladistvý");
-	pridejOtazku("juvenile court", "soud pro mladistvé");
-	pridejOtazku("juvenile delinquency", "kriminalita mladistvých");
-	pridejOtazku("juvenile delinquent", "mladistvý provinilec");
-	pridejOtazku("key operational objecti", "vesklíčové operační úkoly");
-	pridejOtazku("kick", "kopnout");
-	pridejOtazku("kidnapping", "únos osoby");
-	pridejOtazku("kidnapping children via chat rooms", "únos dětí prostřednictvím chatů");
-	pridejOtazku("killing in self defence", "zabití, usmrcení v sebeobraně");
+
 	pridejOtazku("lapse", "chyba, omyl");
 	pridejOtazku("larceny", "odcizení cizího majetku");
 	pridejOtazku("larceny", "krádež, rozkrádání");
